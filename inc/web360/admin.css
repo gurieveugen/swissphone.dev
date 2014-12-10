@@ -1,0 +1,60 @@
+.web360_container {
+	padding : 5px; 
+	float 	: left;
+}
+
+.web360_container .web360_view {
+	float 	: left; 
+	height 	: 170px; 
+	width 	: 210px; 
+	margin 	: 5px 5px 10px 5px; 
+	border 	: 1px solid gray;
+	border-color: #dddddd; 
+	padding : 3px 10px 10px 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #eeeeee; 
+}
+
+.web360_container .button {
+	margin  : 5px;
+	padding: 5px 0; 
+	float 	: left;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;	
+	border 	: 1px solid gray;
+	border-color: #dddddd; 
+	width: 90px;
+	text-align: center;
+	height: 20px;
+	background-color: #ffffff;
+}
+
+.web360_container .web360_view .view_title {
+	font: 14px/14px bold Arial;
+	width: 100%;
+	display: block;
+	margin: 0; 
+	text-align: center;
+}
+
+.web360_container .web360_view .image {
+	float 	: left; 
+	width	: 90px; 
+	height 	: 90px; 
+	margin 	: 5px;
+	border 	: 1px solid gray;
+	border-color: #dddddd; 
+}
+
+.web360_container .web360_view .view-vcard {
+	float 	: left; 
+	width	: 80px; 
+	height 	: 80px; 
+	padding	: 5px;
+	margin 	: 5px;
+	border 	: 1px solid gray;
+	border-color: #dddddd; 
+}

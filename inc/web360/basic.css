@@ -1,0 +1,167 @@
+.wr360_player
+{
+     width:100%;
+     height:100%;
+     left:0;
+     top:0;
+     position:relative;
+     background:#FFFFFF;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+     user-select: none;
+}
+
+#container
+{
+     width:100%;
+     height:100%;
+     position:absolute;
+     left:0;
+     top:0;
+     z-index:0;
+}
+
+.wr360_player .preloader .theme_panel
+{
+     position:absolute;
+     width:100%;
+     bottom:0;
+     left:0;
+     margin-bottom:0px;
+}
+
+.wr360_player .preloader .theme_header
+{
+}
+
+.wr360_player .preloader .theme_header .progress_bar
+{
+     background:url(img/custom-js/load.gif) left top no-repeat;
+     margin-left:3px;
+     display:block;
+     float:left;
+     width:53px;
+     height:53px;
+     cursor:pointer
+}
+
+.wr360_player .preloader .theme_header .progress_bar .progress_num
+{
+     position: relative;
+     left: 3px;
+     top: 18px;
+     text-align:center;
+     color:#A0A0A0;
+     font-family:Arial;
+     font-size:15px;
+}
+
+.wr360_player .preloader .theme_header a.watermark
+{
+     margin-left:5px;
+     margin-top:5px;
+     display:block;
+     float:left;
+     width:1px;
+     height:1px;
+     cursor:pointer;
+	 display:none
+}
+
+.wr360_player .preloader .theme_panel .toolbar
+{
+     position:relative;
+     height:35px;
+     margin: 0px auto -1px auto;
+     width:110px;
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.left_button
+{
+     background:url(img/custom-js/left_combined.png) no-repeat 0 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.left_button:hover
+{
+     background:url(img/custom-js/left_combined.png) no-repeat -19px 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer;
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.play_button
+{
+     background:url(img/custom-js/play_combined.png) no-repeat 0 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.play_button:hover
+{
+     background:url(img/custom-js/play_combined.png) no-repeat -19px 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.pause_button
+{
+     background:url(img/custom-js/pause_combined.png) no-repeat 0 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.pause_button:hover
+{
+     background:url(img/custom-js/pause_combined.png) no-repeat -19px 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.right_button
+{
+     background:url(img/custom-js/right_combined.png) no-repeat 0 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer
+}
+
+.wr360_player .preloader .theme_panel .toolbar a.right_button:hover
+{
+     background:url(img/custom-js/right_combined.png) no-repeat -19px 0;
+     display:block;
+     float:left;
+     width:18px;
+     height:18px;
+     margin: 4px 0 0 8px;
+     cursor:pointer;
+}

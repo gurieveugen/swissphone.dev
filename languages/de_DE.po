@@ -1,0 +1,277 @@
+# Translation of WordPress 3.2 in German
+# This file is distributed under the same license as the WordPress 3.2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2011-08-25 17:08+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WordPress 3.2 - Du (13.7.2011)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Rus <x@x.com>\n"
+"Language-Team: Olaf Baumann, Olaf A Schmitz <info@inpsyde.com>\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: wp-includes/locale.php:108
+#: wp-includes/locale.php:118
+#: wp-includes/locale.php:131
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: wp-includes/locale.php:109
+#: wp-includes/locale.php:119
+#: wp-includes/locale.php:132
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Monday"
+msgstr "Montag"
+
+#: wp-includes/locale.php:110
+#: wp-includes/locale.php:120
+#: wp-includes/locale.php:133
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: wp-includes/locale.php:111
+#: wp-includes/locale.php:121
+#: wp-includes/locale.php:134
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: wp-includes/locale.php:112
+#: wp-includes/locale.php:122
+#: wp-includes/locale.php:135
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: wp-includes/locale.php:113
+#: wp-includes/locale.php:123
+#: wp-includes/locale.php:136
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Friday"
+msgstr "Freitag"
+
+#: wp-includes/locale.php:114
+#: wp-includes/locale.php:124
+#: wp-includes/locale.php:137
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Saturday"
+msgstr "Samstag"
+
+#: wp-includes/locale.php:118
+msgid "S_Sunday_initial"
+msgstr "S_Sonntag_initial"
+
+#: wp-includes/locale.php:119
+msgid "M_Monday_initial"
+msgstr "M_Montag_initial"
+
+#: wp-includes/locale.php:120
+msgid "T_Tuesday_initial"
+msgstr "D_Dienstag_initial"
+
+#: wp-includes/locale.php:121
+msgid "W_Wednesday_initial"
+msgstr "M_Mittwoch_initial"
+
+#: wp-includes/locale.php:122
+msgid "T_Thursday_initial"
+msgstr "D_Donnerstag_initial"
+
+#: wp-includes/locale.php:123
+msgid "F_Friday_initial"
+msgstr "F_Freitag_initial"
+
+#: wp-includes/locale.php:124
+msgid "S_Saturday_initial"
+msgstr "S_Samstag_initial"
+
+#: wp-includes/locale.php:131
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Sun"
+msgstr "So"
+
+#: wp-includes/locale.php:132
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Mon"
+msgstr "Mo"
+
+#: wp-includes/locale.php:133
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Tue"
+msgstr "Di"
+
+#: wp-includes/locale.php:134
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Wed"
+msgstr "Mi"
+
+#: wp-includes/locale.php:135
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Thu"
+msgstr "Do"
+
+#: wp-includes/locale.php:136
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Fri"
+msgstr "Fr"
+
+#: wp-includes/locale.php:137
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Sat"
+msgstr "Sa"
+
+#: wp-includes/locale.php:140
+#: wp-includes/locale.php:155
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "January"
+msgstr "Januar"
+
+#: wp-includes/locale.php:141
+#: wp-includes/locale.php:156
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "February"
+msgstr "Februar"
+
+#: wp-includes/locale.php:142
+#: wp-includes/locale.php:157
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "March"
+msgstr "März"
+
+#: wp-includes/locale.php:143
+#: wp-includes/locale.php:158
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "April"
+msgstr "April"
+
+#: wp-includes/locale.php:144
+#: wp-includes/locale.php:159
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "May"
+msgstr "Mai"
+
+#: wp-includes/locale.php:145
+#: wp-includes/locale.php:160
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "June"
+msgstr "Juni"
+
+#: wp-includes/locale.php:146
+#: wp-includes/locale.php:161
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "July"
+msgstr "Juli"
+
+#: wp-includes/locale.php:147
+#: wp-includes/locale.php:162
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "August"
+msgstr "August"
+
+#: wp-includes/locale.php:148
+#: wp-includes/locale.php:163
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "September"
+msgstr "September"
+
+#: wp-includes/locale.php:149
+#: wp-includes/locale.php:164
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "October"
+msgstr "Oktober"
+
+#: wp-includes/locale.php:150
+#: wp-includes/locale.php:165
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "November"
+msgstr "November"
+
+#: wp-includes/locale.php:151
+#: wp-includes/locale.php:166
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "December"
+msgstr "Dezember"
+
+#: wp-includes/locale.php:155
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Jan_January_abbreviation"
+msgstr "Jan_Januar_abbreviation"
+
+#: wp-includes/locale.php:156
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Feb_February_abbreviation"
+msgstr "Feb_Februar_abbreviation"
+
+#: wp-includes/locale.php:157
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Mar_March_abbreviation"
+msgstr "Mrz_März_abbreviation"
+
+#: wp-includes/locale.php:158
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Apr_April_abbreviation"
+msgstr "Apr_April_abbreviation"
+
+#: wp-includes/locale.php:159
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "May_May_abbreviation"
+msgstr "Mai_Mai_abbreviation"
+
+#: wp-includes/locale.php:160
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Jun_June_abbreviation"
+msgstr "Jun_Juni_abbreviation"
+
+#: wp-includes/locale.php:161
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Jul_July_abbreviation"
+msgstr "Jul_Juli_abbreviation"
+
+#: wp-includes/locale.php:162
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Aug_August_abbreviation"
+msgstr "Aug_August_abbreviation"
+
+#: wp-includes/locale.php:163
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Sep_September_abbreviation"
+msgstr "Sep_September_abbreviation"
+
+#: wp-includes/locale.php:164
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Oct_October_abbreviation"
+msgstr "Okt_Oktober_abbreviation"
+
+#: wp-includes/locale.php:165
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Nov_November_abbreviation"
+msgstr "Nov_November_abbreviation"
+
+#: wp-includes/locale.php:166
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Dec_December_abbreviation"
+msgstr "Dez_Dezember_abbreviation"
+
+#: wp-includes/locale.php:173
+msgid "am"
+msgstr "am"
+
+#: wp-includes/locale.php:174
+msgid "pm"
+msgstr "pm"
+
+#: wp-includes/locale.php:175
+msgid "AM"
+msgstr "AM"
+
+#: wp-includes/locale.php:176
+msgid "PM"
+msgstr "PM"
+

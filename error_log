@@ -1,0 +1,2 @@
+[30-Jun-2011 04:46:18] PHP Fatal error:  Call to undefined function  get_header() in /home8/miydimco/public_html/site2/wp-content/themes/SwissPhones/index.php on line 7
+[14-Sep-2011 04:15:39] PHP Fatal error:  Call to undefined function  get_header() in /home8/miydimco/public_html/site2/wp-content/themes/SwissPhones/index.php on line 7

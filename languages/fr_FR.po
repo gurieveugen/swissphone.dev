@@ -1,0 +1,327 @@
+# Translation of WordPress 3.1-alpha.
+# Copyright (C) 2010 WordPress
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress 3.2\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2011-07-03 19:13:09+00:00\n"
+"PO-Revision-Date: 2011-08-25 17:10+0200\n"
+"Last-Translator: Rus <x@x.com>\n"
+"Language-Team: WordPress Francophone <traduction@wordpress-fr.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Bookmarks: -1,430,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#. translators: weekday
+#: wp-includes/locale.php:108
+#: wp-includes/locale.php:118
+#: wp-includes/locale.php:131
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Sunday"
+msgstr "Dimanche"
+
+#. translators: weekday
+#: wp-includes/locale.php:109
+#: wp-includes/locale.php:119
+#: wp-includes/locale.php:132
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Monday"
+msgstr "Lundi"
+
+#. translators: weekday
+#: wp-includes/locale.php:110
+#: wp-includes/locale.php:120
+#: wp-includes/locale.php:133
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Tuesday"
+msgstr "Mardi"
+
+#. translators: weekday
+#: wp-includes/locale.php:111
+#: wp-includes/locale.php:121
+#: wp-includes/locale.php:134
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#. translators: weekday
+#: wp-includes/locale.php:112
+#: wp-includes/locale.php:122
+#: wp-includes/locale.php:135
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Thursday"
+msgstr "Jeudi"
+
+#. translators: weekday
+#: wp-includes/locale.php:113
+#: wp-includes/locale.php:123
+#: wp-includes/locale.php:136
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Friday"
+msgstr "Vendredi"
+
+#. translators: weekday
+#: wp-includes/locale.php:114
+#: wp-includes/locale.php:124
+#: wp-includes/locale.php:137
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
+msgid "Saturday"
+msgstr "Samedi"
+
+#. translators: one-letter abbreviation of the weekday
+#: wp-includes/locale.php:118
+msgid "S_Sunday_initial"
+msgstr "D"
+
+#. translators: one-letter abbreviation of the weekday
+#: wp-includes/locale.php:119
+msgid "M_Monday_initial"
+msgstr "L"
+
+#. translators: one-letter abbreviation of the weekday
+#: wp-includes/locale.php:120
+msgid "T_Tuesday_initial"
+msgstr "Ma"
+
+#. translators: one-letter abbreviation of the weekday
+#: wp-includes/locale.php:121
+msgid "W_Wednesday_initial"
+msgstr "Me"
+
+#. translators: one-letter abbreviation of the weekday
+#: wp-includes/locale.php:122
+msgid "T_Thursday_initial"
+msgstr "J"
+
+#. translators: one-letter abbreviation of the weekday
+#: wp-includes/locale.php:123
+msgid "F_Friday_initial"
+msgstr "V"
+
+#. translators: one-letter abbreviation of the weekday
+#: wp-includes/locale.php:124
+msgid "S_Saturday_initial"
+msgstr "S"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/locale.php:131
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Sun"
+msgstr "dim"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/locale.php:132
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Mon"
+msgstr "lun"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/locale.php:133
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Tue"
+msgstr "mar"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/locale.php:134
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Wed"
+msgstr "mer"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/locale.php:135
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Thu"
+msgstr "jeu"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/locale.php:136
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Fri"
+msgstr "ven"
+
+#. translators: three-letter abbreviation of the weekday
+#: wp-includes/locale.php:137
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
+msgid "Sat"
+msgstr "sam"
+
+#. translators: month name
+#: wp-includes/locale.php:140
+#: wp-includes/locale.php:155
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "January"
+msgstr "janvier"
+
+#. translators: month name
+#: wp-includes/locale.php:141
+#: wp-includes/locale.php:156
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "February"
+msgstr "février"
+
+#. translators: month name
+#: wp-includes/locale.php:142
+#: wp-includes/locale.php:157
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "March"
+msgstr "mars"
+
+#. translators: month name
+#: wp-includes/locale.php:143
+#: wp-includes/locale.php:158
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "April"
+msgstr "avril"
+
+#. translators: month name
+#: wp-includes/locale.php:144
+#: wp-includes/locale.php:159
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "May"
+msgstr "mai"
+
+#. translators: month name
+#: wp-includes/locale.php:145
+#: wp-includes/locale.php:160
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "June"
+msgstr "juin"
+
+#. translators: month name
+#: wp-includes/locale.php:146
+#: wp-includes/locale.php:161
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "July"
+msgstr "juillet"
+
+#. translators: month name
+#: wp-includes/locale.php:147
+#: wp-includes/locale.php:162
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "August"
+msgstr "août"
+
+#. translators: month name
+#: wp-includes/locale.php:148
+#: wp-includes/locale.php:163
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "September"
+msgstr "septembre"
+
+#. translators: month name
+#: wp-includes/locale.php:149
+#: wp-includes/locale.php:164
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "October"
+msgstr "octobre"
+
+#. translators: month name
+#: wp-includes/locale.php:150
+#: wp-includes/locale.php:165
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "November"
+msgstr "novembre"
+
+#. translators: month name
+#: wp-includes/locale.php:151
+#: wp-includes/locale.php:166
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
+msgid "December"
+msgstr "décembre"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:155
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Jan_January_abbreviation"
+msgstr "jan"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:156
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Feb_February_abbreviation"
+msgstr "fév"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:157
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Mar_March_abbreviation"
+msgstr "mar"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:158
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Apr_April_abbreviation"
+msgstr "avr"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:159
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "May_May_abbreviation"
+msgstr "mai"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:160
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Jun_June_abbreviation"
+msgstr "juin"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:161
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Jul_July_abbreviation"
+msgstr "juil"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:162
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Aug_August_abbreviation"
+msgstr "août"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:163
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Sep_September_abbreviation"
+msgstr "sept"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:164
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Oct_October_abbreviation"
+msgstr "oct"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:165
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Nov_November_abbreviation"
+msgstr "nov"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:166
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
+msgid "Dec_December_abbreviation"
+msgstr "déc"
+
+#: wp-includes/locale.php:173
+msgid "am"
+msgstr " "
+
+#: wp-includes/locale.php:174
+msgid "pm"
+msgstr " "
+
+#: wp-includes/locale.php:175
+msgid "AM"
+msgstr " "
+
+#: wp-includes/locale.php:176
+msgid "PM"
+msgstr " "
+
