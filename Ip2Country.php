@@ -498,7 +498,7 @@ class Ip2Country
 	
 	public function load($ip)
 	{
-		$ip = floatval($this->ip2int($ip));
+		$ip = floatval($this->ip2int($ip))/10;
 		$piece = substr($ip, 0, 3);
 		$fields= array("countryCode","region","city","postalCode","latitude","longitude","metroCode","areaCode" );
 
@@ -512,11 +512,21 @@ class Ip2Country
 		foreach ($entries AS $e)
 		{	
 			$e[0] = floatval($e[0]);
-			
+			$e[1] = floatval($e[1]);
+			echo '<pre>';
+			var_dump(
+				$e[0],
+				$e[1],
+				$ip,
+				($e[0] <= $ip),
+				($e[1] >= $ip)
+			);
+			echo '</pre>';
 			if ($e[0] <= $ip and $e[1] >= $ip)
 			{
 				$locId	=	$e[2];
 				$piece = substr($locId, 0, 3);
+
 				if (!file_exists($this->loc_dir . $piece . '.php'))
 				{
 					return array("error" => "Location part $piece not found");
@@ -532,6 +542,8 @@ class Ip2Country
 				}
 			}
 		}
+
+
 		
 		return array();
 	}
@@ -539,9 +551,9 @@ class Ip2Country
     private function ip2int($ip)
 	{
 		//In case you wonder how it works...
-		//$t = explode('.', $ip);
-		//return $t[0] * 256*256*256 + $t[1]*256*256 + $t[2]*256 + $t[3];
-		return sprintf("%u\n", ip2long($ip));
+		$t = explode('.', $ip);
+		return $t[0] * 256*256*256 + $t[1]*256*256 + $t[2]*256 + $t[3];
+		//return sprintf("%u\n", ip2long($ip));
 	}
 		
 	public function __get($var)

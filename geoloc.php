@@ -47,7 +47,7 @@ function get_geo( $ip = NULL ) {
 	//if ( $ip == '92.113.148.16' ) $ip = '78.46.9.199';
 	//if ( $ip == '93.73.191.88' ) $ip = '78.46.9.199';
 	$ip2loc = new Ip2Country;
-	if (isset($_SESSION['user_geo_ip']) && $_SESSION['user_geo_ip'] == $ip) {
+	if (isset($_SESSION['user_geo_ip']) && $_SESSION['user_geo_ip'] == $ip && strlen(trim($_SESSION['geoloc_result']['city']))) {
 		if (isset($_SESSION['geoloc_result'])) $res = $_SESSION['geoloc_result'];
 	} else {
 		$ip2loc->dir = ABSPATH . 'wp-content/geo_db/db_ip/';
@@ -58,7 +58,16 @@ function get_geo( $ip = NULL ) {
 	}
 	$_SESSION['user_geo_ip'] = $ip;
 	$_SESSION['geoloc_result'] = $res;
+
 	$debug_msg .= "DEBUG:  IP - $ip; LOCATION: ".print_r($res, true)." \n";
+	echo '<pre id="debugg">';
+	var_dump(
+		$debug_msg, 
+		$_SESSION['geoloc_result'], 
+		strlen(trim($_SESSION['geoloc_result']['city'])),
+		$ip2loc->load($ip)
+	);
+	echo '</pre>';
 	return $res;
 }
 

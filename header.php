@@ -215,6 +215,7 @@
 		      class="country-select" style="position: relative; margin-top: 5px;">
 			<select name="swiss_country_code" class="styled" onchange="jQuery(this).closest('form').submit();">
 			<?php
+				
 				foreach($GLOBALS['countries_menu_list'] as $code => $name)
 					if($code == 'other'){
 						echo "<option value='$code' ",
